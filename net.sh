@@ -493,7 +493,13 @@ $usesudo $install_command jq curl ImageMagick mtr iperf3 bc procps-ng libstdc++
 ;;
 pacman)$usesudo pacman -Sy
 $usesudo $install_command jq curl imagemagick mtr iperf3 bc procps-ng
-$usesudo yay -S --noconfirm gcompat
+if command -v paru >/dev/null 2>&1; then
+    $usesudo paru -S --noconfirm gcompat
+elif command -v yay >/dev/null 2>&1; then
+    $usesudo yay -S --noconfirm gcompat
+else
+    echo "Neither paru nor yay found. Please install one of them for AUR support."
+fi
 ;;
 apk)$usesudo apk update
 $usesudo $install_command jq curl imagemagick mtr iperf3 bc procps gcompat libstdc++
