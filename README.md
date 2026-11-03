@@ -189,8 +189,8 @@ docker run --rm --net=host -it xykt/netquality & docker rmi xykt/netquality > NU
 | LisaHost</br>丽萨主机 | ![lisa_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_lisa.png) | [https://lisahost.com](https://lisahost.com)|  
 | RapidProxy</br>`原生IP` | ![rapidproxy_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_rapidproxy.png) | [https://rapidproxy.io](https://www.rapidproxy.io/?ref=gitipquality)| 
 | ColaProxy</br>`原生IP` | ![colaproxy_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_colaproxy.png) | [https://colaproxy.com](https://colaproxy.com/?utm_source=IPQuality&utm_medium=IPQuality&ref=IPQuality)| 
-| RFCHost | ![rfchost_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_rfchost.png) | [https://rfchost.com](https://rfchost.com)| 
 | KFCHost | ![kfchost_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_kfchost.png) | [https://kfchost.com](https://kfchost.com)| 
+| RFCHost | ![rfchost_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_rfchost.png) | [https://rfchost.com](https://rfchost.com)| 
 | PO0 | ![po0_logo](https://raw.githubusercontent.com/xykt/NetQuality/main/res/sponsor/logo_po0.png) | [https://po0.io](https://po0.io)|  
 
 ##### *E-Mail: sponsor@check.place Telegram Bot: https://t.me/xythebot*
